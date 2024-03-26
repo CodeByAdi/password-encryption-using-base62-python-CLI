@@ -1,0 +1,12 @@
+#pass_encode By aditya bhosale
+#encode-->
+import base64
+
+def encrypt_pass(password):
+    encoded_Bytes = base64.b64encode(password.encode())
+    print(encoded_Bytes)
+  
+user_pass= input("Enter Your Password :  ")
+encrypt_pass(user_pass)
+
+#
